@@ -20,5 +20,18 @@ El problema de flujo máximo se refiere a encontrar la cantidad máxima de flujo
 
 ### Pasos para resolver el problema de flujo máximo:
 1. Comenzamos eligiendo arbitrariamente un camino desde la fuente hasta el sumidero.
-2. Se escoje cual es el flujo máximo que se puede enviar por ese camino, que es el mínimo de las capacidades de las aristas en ese camino.
+2. Se escoje cual es el flujo máximo que se puede enviar por ese camino(el valor mas pequeño que no sea cero), que es el mínimo de las capacidades de las aristas en ese camino.
 3. Se actualizan las capacidades de las aristas en el camino, restando el flujo maximo que se ha enviado.
+
++(->)-  
+-(<-)+
+
+## Problema de la ruta más corta
+El problema de la ruta más corta se refiere a encontrar el camino más corto entre dos nodos.
+
+### Pasos para resolver el problema de la ruta más corta:
+1. Encontrar el nodo mas cercano al nodo de origen.
+2. Actualizar las distancias a los nodos vecinos del nodo seleccionado.
+3. Repetir los pasos 1 y 2 hasta que se alcance el nodo de destino o se hayan visitado todos los nodos.
+4. El resultado es el camino más corto desde el nodo de origen hasta el nodo de destino.
+
